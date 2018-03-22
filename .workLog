@@ -1,0 +1,21 @@
+---------- 2018/03/22 - YA ----------
+
+Branched off master.
+
+Adding packages: 
+    - React (react & react-dom): Front end framework
+    - Webpack: handle package dependencies
+    - Babel: compile newer js to older versions that most browsers support
+
+Edited packages.json to use webpack to build the app (handle dependencies).
+
+Added webpack config file to setup source of js code and destination for final
+bundle for user. See link for structure: 
+https://webpack.js.org/configuration/
+
+Added template main page in public/index.html, which is used by React.
+
+Added src folder and template React file (app.jsx) and an entry point for Webpack (index.js)
+
+
+
